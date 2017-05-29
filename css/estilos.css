@@ -1,0 +1,17 @@
+header
+{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  color:white;
+  text-decoration: none;
+}
+
+header>h1
+{
+  text-align: left;
+  text-shadow: 2px #02010a;
+}
+header #menuPrincipal
+{
+  text-align: right;
+}
