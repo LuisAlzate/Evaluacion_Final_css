@@ -1,17 +1,36 @@
+/*General*/
+body
+{
+  background-color: #02010a;
+  color: white;
+  font-family: "Dancing Script";
+}
+
+div #contenido
+{
+  max-width:900px;
+  margin:auto;
+}
+
+/*Cabezera*/
 header
 {
   background-color: #5b7989;
+  margin: auto;
   border-radius: 10px 10px 0 0;
-  color:white;
-  text-decoration: none;
+  max-width: 900px;
 }
-
 header>h1
 {
+  margin:auto;
   text-align: left;
-  text-shadow: 2px #02010a;
 }
-header #menuPrincipal
+header>nav
 {
-  text-align: right;
+  text-align:right;
+  margin:auto;
+}
+a
+{
+  color:white;
 }
